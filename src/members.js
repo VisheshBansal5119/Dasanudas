@@ -76,6 +76,13 @@ export const members = [
         name: 'Saumil Bhai',
         username: 'Moriah.Stanton',
         email: 'Rey.Padberg@karina.biz'
+      },
+      {
+        id: 12,
+        photo:"https://media-exp1.licdn.com/dms/image/C5603AQEy2P6KhLBEew/profile-displayphoto-shrink_800_800/0/1551760599211?e=1620864000&v=beta&t=magjPhydaeyHyyOGtjrcZMk5-2EB42OSx1_2IPQB5Ls",
+        name: 'Mitul Bhai',
+        username: 'Moriah.Stanton',
+        email: 'Rey.Padberg@karina.biz'
       }
   ];
   
