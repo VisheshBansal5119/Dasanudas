@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face{
+  
+  src: url("./SAMARO__.TTF");
+  font-family: "Samarkan";
+}
+h1{
+  font-family: "Samarkan";
+}
+#Main-heading{
+  text-align: center;
+  font-size: 75px;
+  color: orange;
+  font-family: "Samarkan";
+}
+#sub-heading{
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  font-family: "Samarkan";
+}
