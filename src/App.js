@@ -17,7 +17,7 @@ class App extends Component{
         <h2 id="sub-heading">Yuvako</h2>
         <span>Test <a href="http://127.0.0.1:5500/src/Vishesh.html">click</a></span>
         <CardList members={members}/>
-
+        <span id="credit">Created by Vishesh Bansal</span>
       </div>
     );
   }

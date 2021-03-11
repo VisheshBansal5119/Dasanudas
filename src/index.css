@@ -19,6 +19,10 @@ code {
 h1{
   font-family: "Samarkan";
 }
+#credit{
+ margin-left: 40%;
+  font-size: 28px;
+}
 #Main-heading{
   text-align: center;
   font-size: 75px;
