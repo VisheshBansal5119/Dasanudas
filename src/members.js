@@ -44,7 +44,7 @@ export const members = [
     },
     {
       id: 7,
-      photo:"chirag",
+      photo:"https://scontent.fybz2-1.fna.fbcdn.net/v/t31.0-1/p320x320/15585234_1193472800771482_3871205530812790303_o.jpg?_nc_cat=101&ccb=1-3&_nc_sid=7206a8&_nc_ohc=TB2LNRPdYRgAX-pNzFx&_nc_ht=scontent.fybz2-1.fna&tp=6&oh=03d76b261ec47cf803fc3c9aa0e94d8b&oe=607276E0",
       name: 'Chirag Bhai',
       username: 'Elwyn.Skiles',
       email: 'Telly.Hoeger@billy.biz'
@@ -58,7 +58,7 @@ export const members = [
     },
     {
       id: 9,
-      photo:"Capture.JPG",
+      photo:"https://scontent-ort2-1.cdninstagram.com/v/t51.2885-19/s320x320/117194509_1435154530013773_7199006213761388079_n.jpg?tp=1&_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_ohc=034_Keo7gZEAX8tO0ej&oh=2be6eef177d5405165122822faabc723&oe=6079156B",
       name: 'Amit Bhai',
       username: 'Delphine',
       email: 'Chaim_McDermott@dana.io'
