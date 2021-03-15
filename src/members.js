@@ -89,7 +89,7 @@ export const members = [
         photo:"https://scontent-ort2-1.cdninstagram.com/v/t51.2885-19/s320x320/148649853_471115783898138_580961610204734172_n.jpg?tp=1&_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_ohc=k7maochIRlcAX_WIY1s&oh=272435ce135439e07e1223be69f857bb&oe=60784930",
         name: 'Rahil Master',
         username: 'Moriah.Stanton',
-        email: 'Rey.Padberg@karina.biz'
+        email: 'Student'
       }
   ];
   
