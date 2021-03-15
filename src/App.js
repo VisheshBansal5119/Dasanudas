@@ -14,7 +14,12 @@ class App extends Component{
 
       <div>
         <Nav/>
+        <div id="colorstrip"/>
         <h1 id="Main-heading">Dasanudas</h1>
+        <div id="strip">
+         <span> <marquee style={{fontSize: '25px' ,padding: '5'  , color: 'white'}}>The journey of a thousand miles begins with one step.</marquee>
+         </span>
+        </div>
         <h2 id="sub-heading">Yuvako</h2>
         <CardList members={members}/>
         <span id="credit">Created by Vishesh Bansal</span>
