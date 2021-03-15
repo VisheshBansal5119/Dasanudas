@@ -19,6 +19,9 @@ code {
 h1{
   font-family: "Samarkan";
 }
+.image-overlay{
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+}
 #credit{
  margin-left: 40%;
  font-family: "Samarkan";

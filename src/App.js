@@ -18,6 +18,9 @@ class App extends Component{
         <span>Test <a href="http://127.0.0.1:5500/src/Vishesh.html">click</a></span>
         <CardList members={members}/>
         <span id="credit">Created by Vishesh Bansal</span>
+        {
+          localStorage.setItem("name","Vishesh")
+        }
       </div>
     );
   }
