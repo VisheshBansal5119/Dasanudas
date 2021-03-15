@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:  url("http://thewowstyle.com/wp-content/uploads/2015/03/wallpaper-designs1.jpg");
 }
 
 code {
@@ -25,7 +26,10 @@ h1{
 #credit{
  margin-left: 40%;
  font-family: "Samarkan";
-  font-size: 28px;
+  font-size: 32px;
+  color: aliceblue;
+  
+  padding-bottom: 30px;
 }
 #Main-heading{
   text-align: center;

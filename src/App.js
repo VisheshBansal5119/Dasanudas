@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-
+import Nav from "./NavigationBar";
 import {members} from './members';
 import CardList from './cardlist';
 // const fs = require('fs');
@@ -13,13 +13,14 @@ class App extends Component{
     return(
 
       <div>
+        <Nav/>
         <h1 id="Main-heading">Dasanudas</h1>
         <h2 id="sub-heading">Yuvako</h2>
-        <span>Test <a href="http://127.0.0.1:5500/src/Vishesh.html">click</a></span>
         <CardList members={members}/>
         <span id="credit">Created by Vishesh Bansal</span>
         {
           localStorage.setItem("name","Vishesh")
+          
         }
       </div>
     );
