@@ -65,7 +65,7 @@ export const members = [
     },
     {
       id: 10,
-      photo:"https://media-exp1.licdn.com/dms/image/C4E35AQGn9fqaDSIKqw/profile-framedphoto-shrink_400_400/0/1614228857430?e=1615492800&v=beta&t=4WXFGsVBs5cLbfLF3QBPSmUucsNc0mA4q5XO23ANnOw",
+      photo:"https://media-exp1.licdn.com/dms/image/C4E35AQGn9fqaDSIKqw/profile-framedphoto-shrink_800_800/0/1614228857430?e=1616086800&v=beta&t=hMALMe9pbqA66OgX2e78kpLm4z9OpgVuzNX5lQMYrCI",
       name: 'Aakash Goyani',
       username: 'Moriah.Stanton',
       email: 'Rey.Padberg@karina.biz'
