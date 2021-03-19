@@ -19,7 +19,9 @@ class App extends Component{
 onRouteChange =() =>{
   this.setState({route: 'home'});
 }
-
+onDouble =()=>{
+  console.log("double para pass");
+}
   render(){
     return(
 
@@ -27,7 +29,7 @@ onRouteChange =() =>{
         
         <div id="colorstrip"/>
         <h1 id="Main-heading">Dasanudas</h1>
-        { this.state.route === 'signin' ? <Signin onRouteChange={this.onRouteChange}/>
+        { this.state.route === 'signin' ? <Signin onRouteChange={this.onRouteChange} onDouble={this.onDouble}/>
         :<div>
        
         <h2 id="sub-heading">Yuvako</h2>
