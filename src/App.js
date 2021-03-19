@@ -3,6 +3,7 @@ import {members} from './members';
 import CardList from './cardlist';
 import Signin from './Signin/Signin';
 import './App.css';
+import './index.css';
 
 class App extends Component{
  constructor(){
@@ -31,13 +32,16 @@ onRouteChange =() =>{
        
         <h2 id="sub-heading">Yuvako</h2>
         <div id="strip">
-         <span > <marquee style={{fontSize: '25px' ,padding: '5'  , color: 'white'}}>The journey of a thousand miles begins with one step.</marquee>
+         <span > <marquee style={{color : 'white', fontSize: '25px'}} width="100%" direction="left" height="100px">
+         Always forgive your enemies; nothing annoys them so much.
+        </marquee>
          </span>
         </div>
+        
         <CardList members={members}/>
         <span id="credit">Created by Vishesh Bansal</span>
         </div>
-  }
+        }
       </div>
     );
   }
