@@ -3,6 +3,8 @@ import {members} from './members';
 import CardList from './cardlist';
 import Signin from './Signin/Signin';
 import './App.css';
+import './index.css';
+import Nav from './NavigationBar';
 import Register from './Register';
 class App extends Component{
  constructor(){
@@ -11,12 +13,18 @@ class App extends Component{
    );
    this.state = {
      route: 'signin',
-     vatsal: 'false',
-     vishesh: 'false'
+     isSignedIn: true
    }
  }
 onRouteChange =(route) =>{
   this.setState({route: route});
+  if(route === 'signin'){
+    this.setState({isSignedIn: false})
+  }
+  else if(route === 'home'){
+    this.setState({isSignedIn: true})
+  }
+ 
 }
 
   render(){
@@ -24,22 +32,13 @@ onRouteChange =(route) =>{
 
       <div>
         
-        <div id="colorstrip"/>
-        
-        <h1 id="Main-heading">Dasanudas</h1>
-        <Register/>
-        { this.state.route === 'signin' ? <Signin onRouteChange={this.onRouteChange}/>
-        :<div>
-       
-        <h2 id="sub-heading">Yuvako</h2>
-        <div id="strip">
-         <span > <marquee style={{fontSize: '25px' ,padding: '5'  , color: 'white'}}>The journey of a thousand miles begins with one step.</marquee>
-         </span>
-        </div>
-        <CardList members={members}/>
-        <span id="credit">Created by Vishesh Bansal</span>
-        </div>
-  }
+         
+        :(
+          this.state.route === "signin"
+          ?<Signin onRouteChange={this.onRouteChange} />
+          :<Register onRouteChange={this.onRouteChange} />
+        )
+        }
       </div>
     );
   }

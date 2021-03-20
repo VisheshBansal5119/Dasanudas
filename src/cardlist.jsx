@@ -8,7 +8,7 @@ const CardList = ({members})=>{
         <div>
             {members.map((user, i) => {
                 
-                {console.log(members[i].photo)}
+                
            return <Card
              
              id={members[i].id} 
