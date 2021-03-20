@@ -4,7 +4,7 @@ import CardList from './cardlist';
 import Signin from './Signin/Signin';
 import './App.css';
 import './index.css';
-
+import Nav from './NavigationBar';
 class App extends Component{
  constructor(){
    super(
@@ -16,8 +16,8 @@ class App extends Component{
      vishesh: 'false'
    }
  }
-onRouteChange =() =>{
-  this.setState({route: 'home'});
+onRouteChange =(route) =>{
+  this.setState({route: route});
 }
 onDouble =()=>{
   console.log("double para pass");
@@ -28,6 +28,7 @@ onDouble =()=>{
       <div>
         
         <div id="colorstrip"/>
+        <Nav onRouteChange={this.onRouteChange}/>
         <h1 id="Main-heading">Dasanudas</h1>
         { this.state.route === 'signin' ? <Signin onRouteChange={this.onRouteChange} onDouble={this.onDouble}/>
         :<div>

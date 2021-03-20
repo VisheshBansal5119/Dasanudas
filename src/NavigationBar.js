@@ -1,10 +1,14 @@
 import React from "react";
 
-const Nav = () => {
+const Nav = ({onRouteChange}) => {
   return(
 
 <div>
-<span>This is the Navigation Bar</span>
+<span onClick={()=>onRouteChange('signin')}
+style={{color:"white", fontSize: "25px", 
+display: "flex", justifyContent:"flex-end", marginRight:"15px",
+textDecoration:"underline"}}
+className="f3 dim pointer">Sign Out</span>
 </div>
   )  
 }
