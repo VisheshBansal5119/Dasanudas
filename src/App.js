@@ -28,7 +28,7 @@ onDouble =()=>{
 
       <div>
         
-        <div id="colorstrip"/>
+        
         <Nav onRouteChange={this.onRouteChange}/>
         <h1 id="Main-heading">Dasanudas</h1>
         { this.state.route === 'home' 
