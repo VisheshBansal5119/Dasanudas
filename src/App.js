@@ -35,7 +35,9 @@ onDouble =()=>{
        
         <h2 id="sub-heading">Yuvako</h2>
         <div id="strip">
-         <span > <marquee style={{color : 'white', fontSize: '25px'}} width="100%" direction="left" height="100px">
+        
+         <span > 
+        <marquee style={{color : 'white', fontSize: '25px'}} width="100%" direction="left" height="100px">
          Always forgive your enemies; nothing annoys them so much.
         </marquee>
          </span>
