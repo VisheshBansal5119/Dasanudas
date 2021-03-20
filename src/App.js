@@ -3,7 +3,7 @@ import {members} from './members';
 import CardList from './cardlist';
 import Signin from './Signin/Signin';
 import './App.css';
-
+import Register from './Register';
 class App extends Component{
  constructor(){
    super(
@@ -25,6 +25,7 @@ onRouteChange =() =>{
       <div>
         
         <div id="colorstrip"/>
+        <Register/>
         <h1 id="Main-heading">Dasanudas</h1>
         { this.state.route === 'signin' ? <Signin onRouteChange={this.onRouteChange}/>
         :<div>
