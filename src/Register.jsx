@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Register = ({onRouteChange, onDouble}) =>{
+const Register = ({onRouteChange}) =>{
     
     
         return (
@@ -24,7 +24,7 @@ const Register = ({onRouteChange, onDouble}) =>{
                         </div>
                         <div class="mv3">
                             <label class="db fw6 lh-copy f6" for="password">Password</label>
-                            <input onClick={onDouble} class="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password"/>
+                            <input  class="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password"/>
                         </div>
                         </fieldset>
                         <div class="">

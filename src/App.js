@@ -13,23 +13,27 @@ class App extends Component{
    );
    this.state = {
      route: 'signin',
-     vatsal: 'false',
-     vishesh: 'false'
+     isSignedIn: true
    }
  }
 onRouteChange =(route) =>{
   this.setState({route: route});
+  if(route === 'signin'){
+    this.setState({isSignedIn: false})
+  }
+  else if(route === 'home'){
+    this.setState({isSignedIn: true})
+  }
+ 
 }
-onDouble =()=>{
-  console.log("double para pass");
-}
+
   render(){
     return(
 
       <div>
         
         
-        <Nav onRouteChange={this.onRouteChange}/>
+        <Nav onRouteChange={this.onRouteChange} isSignedIn={this.state.isSignedIn}/>
         <h1 id="Main-heading">Dasanudas</h1>
         { this.state.route === 'home' 
           ?<div>
