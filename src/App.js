@@ -15,8 +15,8 @@ class App extends Component{
      vishesh: 'false'
    }
  }
-onRouteChange =() =>{
-  this.setState({route: 'home'});
+onRouteChange =(route) =>{
+  this.setState({route: route});
 }
 
   render(){
@@ -25,8 +25,9 @@ onRouteChange =() =>{
       <div>
         
         <div id="colorstrip"/>
-        <Register/>
+        
         <h1 id="Main-heading">Dasanudas</h1>
+        <Register/>
         { this.state.route === 'signin' ? <Signin onRouteChange={this.onRouteChange}/>
         :<div>
        
