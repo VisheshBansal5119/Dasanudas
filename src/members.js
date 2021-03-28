@@ -63,13 +63,13 @@ export const members = [
       username: 'Delphine',
       email: 'Chaim_McDermott@dana.io'
     },
-    // {
-    //   id: 10,
-    //   photo:"https://media-exp1.licdn.com/dms/image/C4E35AQGn9fqaDSIKqw/profile-framedphoto-shrink_800_800/0/1614228857430?e=1616086800&v=beta&t=hMALMe9pbqA66OgX2e78kpLm4z9OpgVuzNX5lQMYrCI",
-    //   name: 'Aakash Goyani',
-    //   username: 'Moriah.Stanton',
-    //   email: 'Rey.Padberg@karina.biz'
-    // },
+    {
+      id: 10,
+      photo:"https://media-exp1.licdn.com/dms/image/C4E35AQGn9fqaDSIKqw/profile-framedphoto-shrink_800_800/0/1614228857430?e=1616086800&v=beta&t=hMALMe9pbqA66OgX2e78kpLm4z9OpgVuzNX5lQMYrCI",
+      name: 'Aakash Goyani',
+      username: 'Moriah.Stanton',
+      email: 'Rey.Padberg@karina.biz'
+    },
     {
         id: 11,
         photo:"https://media-exp1.licdn.com/dms/image/C4D03AQHqZ9ikC63KwA/profile-displayphoto-shrink_800_800/0/1581989465207?e=1620259200&v=beta&t=H-3lKKxTNgNv3x9TVwr-anedh9TxHyziWzrlStiLe5U",
