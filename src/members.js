@@ -16,7 +16,7 @@ export const members = [
     },
     {
       id: 3,
-      photo:"https://media-exp1.licdn.com/dms/image/C4E03AQGBZp9eKp1sUA/profile-displayphoto-shrink_800_800/0/1604684171361?e=1620259200&v=beta&t=NB3wgQLDsQEzWbnpohaofLrKomOB5PMmreDvtpprofQ",
+      photo:"https://media-exp1.licdn.com/dms/image/C4E03AQHDW9gE9rP4SQ/profile-displayphoto-shrink_400_400/0/1618418333061?e=1625097600&v=beta&t=XdWSwjlrc7SbFTimD2b-pFKcyxtJcymHboBW-4ufnm4",
       name: 'Vatsal Patel',
       username: 'Samantha',
       email: 'http://127.0.0.1:5500/src/Vatsal.html'
@@ -44,7 +44,7 @@ export const members = [
     },
     {
       id: 7,
-      photo:"https://scontent.fybz2-1.fna.fbcdn.net/v/t31.0-1/p320x320/15585234_1193472800771482_3871205530812790303_o.jpg?_nc_cat=101&ccb=1-3&_nc_sid=7206a8&_nc_ohc=TB2LNRPdYRgAX-pNzFx&_nc_ht=scontent.fybz2-1.fna&tp=6&oh=03d76b261ec47cf803fc3c9aa0e94d8b&oe=607276E0",
+      photo:"https://scontent.fybz2-1.fna.fbcdn.net/v/t31.18172-1/p320x320/15585234_1193472800771482_3871205530812790303_o.jpg?_nc_cat=101&ccb=1-3&_nc_sid=7206a8&_nc_ohc=BnRiAh6AsT0AX8JfHK4&_nc_ht=scontent.fybz2-1.fna&tp=6&oh=ba9fee9587b5e98818cd5308406fc19c&oe=60AA9620",
       name: 'Chirag Bhai',
       username: 'Elwyn.Skiles',
       email: 'Telly.Hoeger@billy.biz'
@@ -58,14 +58,14 @@ export const members = [
     },
     {
       id: 9,
-      photo:"https://scontent-ort2-1.cdninstagram.com/v/t51.2885-19/s320x320/117194509_1435154530013773_7199006213761388079_n.jpg?tp=1&_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_ohc=034_Keo7gZEAX8tO0ej&oh=2be6eef177d5405165122822faabc723&oe=6079156B",
+      photo:"https://instagram.fybz2-1.fna.fbcdn.net/v/t51.2885-19/s320x320/117194509_1435154530013773_7199006213761388079_n.jpg?tp=1&_nc_ht=instagram.fybz2-1.fna.fbcdn.net&_nc_ohc=ipphXqndrFcAX9i7qS_&edm=ABfd0MgAAAAA&ccb=7-4&oh=741ee0dcf8cf8586a35fde7e0c227a2f&oe=60AA206B&_nc_sid=7bff83",
       name: 'Amit Bhai',
       username: 'Delphine',
       email: 'Chaim_McDermott@dana.io'
     },
     {
       id: 10,
-      photo:"https://media-exp1.licdn.com/dms/image/C4E35AQGn9fqaDSIKqw/profile-framedphoto-shrink_800_800/0/1614228857430?e=1616086800&v=beta&t=hMALMe9pbqA66OgX2e78kpLm4z9OpgVuzNX5lQMYrCI",
+      photo:"https://media-exp1.licdn.com/dms/image/C4E35AQGn9fqaDSIKqw/profile-framedphoto-shrink_400_400/0/1614228857430?e=1619442000&v=beta&t=f-yJf5Q-dNgtcGRsqULJz9TeG1z5Kf-NMcS1ePAGDrw",
       name: 'Aakash Goyani',
       username: 'Moriah.Stanton',
       email: 'Rey.Padberg@karina.biz'
@@ -86,7 +86,7 @@ export const members = [
       },
       {
         id: 13,
-        photo:"https://scontent-ort2-1.cdninstagram.com/v/t51.2885-19/s320x320/148649853_471115783898138_580961610204734172_n.jpg?tp=1&_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_ohc=k7maochIRlcAX_WIY1s&oh=272435ce135439e07e1223be69f857bb&oe=60784930",
+        photo:"https://media-exp1.licdn.com/dms/image/C4D03AQGHzJlxoiq2Xg/profile-displayphoto-shrink_400_400/0/1613698183015?e=1625097600&v=beta&t=AVcXpdQl18m6r22B0FEt2V8-L38zvHGTBxKisx22OhA",
         name: 'Rahil Master',
         username: 'Moriah.Stanton',
         email: 'Student'
