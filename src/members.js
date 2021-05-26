@@ -30,7 +30,7 @@ export const members = [
     },
     {
       id: 5,
-      photo:"https://media-exp1.licdn.com/dms/image/C4E03AQEdjozWipGaIA/profile-displayphoto-shrink_800_800/0/1613586545517?e=1620259200&v=beta&t=2lnchrdqVAG--NOANMLvvFgf-oOHKZgjFYomaaSjDm8",
+      photo:"https://media-exp1.licdn.com/dms/image/C4E03AQEdjozWipGaIA/profile-displayphoto-shrink_800_800/0/1613586545517?e=1627516800&v=beta&t=5gVwjGd0wZ-s2h20RFSQqjC7pPBjB_Ql5NY9PYGx96g",
       name: 'Shivang Lad',
       username: 'Kamren',
       email: 'Lucio_Hettinger@annie.ca'
